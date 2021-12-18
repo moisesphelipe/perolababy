@@ -1,0 +1,17 @@
+ <?php
+ $curPageName = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);  
+    
+    $page = explode('.', $curPageName);
+
+    if($page[0] == 'cubo-dado-decorativo-com-nome-do-beb'){
+      echo '<style type="text/css" media="screen">
+         .iinput-text .qty{
+            visibility:hidden;
+         }
+      </style>';
+    }    
+    
+    
+        
+    
+    ?>
