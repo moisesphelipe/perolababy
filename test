@@ -9,7 +9,7 @@ jQuery(window).on('load',function(){
 ";
     if($page[0] == 'cubo-dado-decorativo-com-nome-do-bebe'){
       echo '<style type="text/css" media="screen">
-      .quantity .buttons_added .form-minimal{visibility:hidden !important; }
+    .text-center .quantity, .quantity{visibility:hidden !important; }
          .input-text .qty{
             visibility:hidden;
          }
