@@ -3,7 +3,7 @@
     
     $page = explode('.', $curPageName);
 
-    if($page[0] == 'cubo-dado-decorativo-com-nome-do-beb'){
+    if($page[0] == 'cubo-dado-decorativo-com-nome-do-bebe'){
       echo '<style type="text/css" media="screen">
       #quantity_61d3911f3fa3e{visibility:hidden !important; }
          .input-text .qty{
